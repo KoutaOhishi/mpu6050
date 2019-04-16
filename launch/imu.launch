@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="imu_tutorial" name="pub_imu" type="pub_imu.py" output="screen" />
+	<node pkg="imu_tutorial" name="pose" type="pose.py" />
+</launch>
